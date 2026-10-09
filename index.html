@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Servicio técnico de computadores en Copiapó. Reparación, formateo, respaldo y optimización de equipos">
+        <title>VECINO TÉCNICO PC</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Vecino Técnico PC</h1>
+            <nav class="menu">
+                <ul>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <p>Soporte informático en Copiapó</p>
+                <p>Soluciones para tu computador</p>
+                <button id="boton-contacto">Solicitar servicio</button>
+                <p id="mensaje"></p>
+            </section>
+            <section class="servicios">
+                <h2>Nuestros Servicios</h2>
+                    <h3 class="card">Reparar PC</h3>
+                    <h3 class="card">Formateo + backup</h3>
+                    <h3 class="card">Optimizar PC</h3>  
+            </section>
+            <section>
+                <h2>¿Necesitas ayuda con tu PC?</h2>
+                <a href="https://wa.me/56995132608" target="_blank" class="boton-whatsapp">Contactar por Whatsapp</a>
+            </section>
+            <section>
+                <form id="formulario">
+                    <label for="nombre">Tu nombre:</label>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+                    <button type="submit">Enviar</button>
+                </form>
+                <p id="respuesta"></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Vecino Técnico PC</p>
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
